@@ -7,14 +7,14 @@ public class Codechef_14_Dec_1 {
         int t = sc.nextInt();
         while(t-- != 0){
             int n = sc.nextInt();
-            if(n < 3){
-                System.out.println("LIGHT");
+            if(n < 4){
+                System.out.println("MILD");
             }
-                else if(n >= 3 && n < 7){
-                    System.out.println("MODERATE");
+                else if(n >= 4 && n < 7){
+                    System.out.println("MEDIUM");
             }
                 else{
-                    System.out.println("HEAVY");
+                    System.out.println("HOT");
                 }
         }
     }
