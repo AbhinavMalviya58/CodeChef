@@ -7,12 +7,14 @@ main()
     cin>>i;
     while(i--)
     {
-        float X,Y;
-        cin>>X>>Y;
-        if(X>=Y)
-            cout<<"Yes"<<endl;
-        else
-            cout<<"No"<<endl;
+        int X,Y,Z;
+        cin>>X>>Y>>Z;
+        for(int k = 2; k <= 100; k++){
+            if(X%k !=0&&Y%k !=0&&Z%k !=0){
+                cout<< k << endl;
+                break;
+            }
+        }
     }
     getch();
 }
