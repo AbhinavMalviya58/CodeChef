@@ -8,8 +8,6 @@ public class ADVANCE {
                 int a = scn.nextInt();
                 String S1,S2 = scn.toString();
                 
-
-
             }
         }
 
