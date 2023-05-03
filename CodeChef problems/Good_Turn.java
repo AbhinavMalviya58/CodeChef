@@ -5,14 +5,16 @@ public class Good_Turn {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         while(t-- != 0){
-            int x = sc.nextInt();
-            int y = sc.nextInt();
-            if(x + y > 6){
-                System.out.println("yes");
-            }
-            else{
-                System.out.println("no");
-            }
+            int runsRequired = sc.nextInt();
+        int oversRemaining = sc.nextInt();
+            int ballsRemaining = oversRemaining * 6;
+        int maxRuns = ballsRemaining * 6;
+
+        if (maxRuns >= runsRequired) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
         }
     }
 }
